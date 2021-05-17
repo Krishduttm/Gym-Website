@@ -1,0 +1,41 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container{
+    border: 15px transparent;
+    padding: 5vw 17vh;
+    margin: 5vw;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+}
+h2{
+    color: white;
+    text-align:left;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+}
+p{
+    color: white;
+    text-align:left;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+}
+.btn{
+    border: 3px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-weight:  bolder;
+    cursor: pointer;
+    position: relative;
+    top: 10vh;
+}

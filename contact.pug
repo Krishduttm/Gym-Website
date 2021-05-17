@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+      include  ../static/style2.css
+    
+    
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <form action="/contact" method="POST" id="contact">
+    <input type="text" class="text" name="name" id="name" placeholder="Enter your name">
+    <input type="number" class="text" name="number" id="number" placeholder="Enter your number">
+    <input type="email" class="text" name="email" id="email" placeholder="Enter your email">
+    <textarea name="address" class="box" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+    <textarea name="question" class="box" id="question" cols="30" rows="10" placeholder="What question do you have for us?"></textarea>
+    <button class="btn">Submit</button>
+    <a href="/back"><button class="btn" id="back">Back </button></a> 
+  </form>
+    
+
+ 
+</body>
+</html>

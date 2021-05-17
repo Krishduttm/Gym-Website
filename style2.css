@@ -1,0 +1,50 @@
+*{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+}
+form{
+    width: 100vw;
+    border: 15px transparent;
+    padding: 5vw 17vh;
+    margin: 5vw;
+}
+.text{
+    list-style: none;
+    padding: 10px 10px;
+}
+input ,textarea{
+    max-width: 70%;
+}
+.text{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+.box{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+input,textarea{
+    display: block;
+    width: 60%;
+}
+.btn{
+    border: 3px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-weight:  bolder;
+    cursor: pointer;
+}
+.text + .box{
+    font-weight: bolder;
+}
